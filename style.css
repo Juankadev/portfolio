@@ -10,7 +10,6 @@ h1,h2{
     font-weight: bold;
     text-align: center;
     font-size: 2.5rem;
-    text-shadow: -3px -3px #fff;
 }
 
 header{
@@ -30,17 +29,23 @@ header a img{
     width: 3rem;
     padding: .5rem;
 }
+header a img.playstore{
+    width: 3rem;
+    padding: .5rem;
+}
 
 
 section.projects{
     margin-top: 8rem;
     margin-bottom: 8rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
+/*
 section.projects .projects-group{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    /* overflow: hidden; */
     justify-content: center;
     gap: 1.5rem;
 }
@@ -52,12 +57,49 @@ section.projects .projects-group .project{
     box-shadow: 0 5px 7px 4px #00000023;
     text-align: center;
 }
-section.projects .projects-group .project video{
+*/
+section.projects .projects-group{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+section.projects .projects-group .project{
     width: 100%;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 7px 4px #00000023;
+    display:flex;
+    gap: 2rem;
+}
+section.projects .projects-group .project video{
+    width: 60%;
+    border-radius: 1rem;
 }
 section.projects .projects-group .project h4{
     font-size: 1.2rem;
+    background-color: #522cd1;
+    color: #fff;
+    border-radius: 1rem;
+    text-align: center;
+    padding: .2rem;
 }
+section.projects .projects-group .project a{
+    text-decoration: none;
+}
+section.projects .projects-group .project a img{
+    position: relative;
+    width:12%;
+    margin-right: 1rem;
+    transition: .5s;
+}
+section.projects .projects-group .project a img:hover{
+    transform: rotateZ(-10deg);
+    opacity: .6;
+}
+
+
 
 #cv{
     display: block;
