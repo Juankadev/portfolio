@@ -32,6 +32,10 @@ header a img{
     width: 3rem;
     padding: .5rem;
 }
+header a img:hover{
+    transform: rotateZ(-10deg);
+    opacity: .6;
+}
 header a img.playstore{
     width: 3rem;
     padding: .5rem;
@@ -125,13 +129,35 @@ section.about p{
 }
 
 footer{
-    margin-top: 3rem;
-    display: flex;
-}
-footer a{
-    width: 50%;
-    padding: 2rem;
     background-color: #522cd1;
+    margin-top: 4rem;
+    padding: 1rem;
+}
+footer .buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+footer .buttons a{
+    width: 20%;
+    padding: 1.5rem;
     color: #fff;
     text-align: center;
+    text-decoration: none;
+    border: 1px solid #eeeeee76;
+    border-radius: 1rem;
+    transition: .5s;
+}
+footer .buttons a.linkedin:hover{
+    background-color: #2866b3;
+    border: 1px solid #eee;
+}
+footer .buttons a.github:hover{
+    background-color: black;
+    border: 1px solid #eee;
+}
+footer p.copyright{
+    text-align: center;
+    color: #eeeeee;
 }
