@@ -127,7 +127,9 @@ section.about p{
     display: block;
     margin: auto;
     margin-top: 3rem;
-    visibility: visible;
+}
+a.cv{
+    display: none;
 }
 
 footer{
@@ -196,6 +198,25 @@ footer p.copyright{
     }
 
     #cv{
-        visibility: hidden;
+        display: none;
+    }
+
+    a.cv{
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        border: 1.5px solid #522cd1;
+        background-color: #fff;
+        color: #522cd1;
+        border-radius: 1rem;
+        width: 50%;
+        margin: auto;
+        padding: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: .3s;
+    }
+    a.cv:hover{
+transform: scaleX(0.9);
     }
 }
