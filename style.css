@@ -114,7 +114,7 @@ section.about{
     text-align: center;
     padding: 4rem 12rem 4rem 12rem;
     margin-bottom: 8rem;
-    height: 100vh;
+    min-height: 100vh;
 }
 section.about h2{
     color:#fff;
@@ -127,6 +127,7 @@ section.about p{
     display: block;
     margin: auto;
     margin-top: 3rem;
+    visibility: visible;
 }
 
 footer{
@@ -161,4 +162,40 @@ footer .buttons a.github:hover{
 footer p.copyright{
     text-align: center;
     color: #eeeeee;
+}
+
+
+
+@media only screen and (max-width: 600px) {  
+    header{
+        margin-left: 1rem;
+    }
+    header img.perfil{
+        width: 50%;
+    }
+
+
+    section.projects{
+        margin-top: 4rem;
+        margin-bottom: 4rem; 
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    section.projects .projects-group .project{
+        padding: .7rem;
+        display:block;
+    }
+    section.projects .projects-group .project video{
+        width: 100%;
+    }
+
+    
+    section.about{
+        padding: 2rem 1rem 2rem 1rem;
+        text-align: start;
+    }
+
+    #cv{
+        visibility: hidden;
+    }
 }
