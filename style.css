@@ -31,6 +31,7 @@ header img.perfil{
 header a img{
     width: 3rem;
     padding: .5rem;
+    transition: .5s;
 }
 header a img:hover{
     transform: rotateZ(-10deg);
