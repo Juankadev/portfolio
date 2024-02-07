@@ -149,7 +149,7 @@ footer .buttons a{
     color: #fff;
     text-align: center;
     text-decoration: none;
-    border: 1px solid #eeeeee76;
+    border: 1px solid #eeeeee;
     border-radius: 1rem;
     transition: .5s;
 }
@@ -193,10 +193,14 @@ footer p.copyright{
 
     
     section.about{
-        padding: 2rem 1rem 2rem 1rem;
+        padding: 2rem 1rem 2rem 0rem;
         text-align: start;
     }
 
+    section.cv{
+        margin-bottom: 8rem; 
+    }
+    
     #cv{
         display: none;
     }
@@ -217,6 +221,6 @@ footer p.copyright{
         transition: .3s;
     }
     a.cv:hover{
-transform: scaleX(0.9);
+        transform: scaleX(0.9);
     }
 }
