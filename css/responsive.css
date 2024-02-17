@@ -1,0 +1,62 @@
+
+@media only screen and (max-width: 600px) {  
+    header{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    header img.perfil{
+        width: 50%;
+    }
+
+
+    section.projects{
+        margin-top: 4rem;
+        margin-bottom: 4rem; 
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    section.projects .projects-group .project{
+        padding: .7rem;
+        display:block;
+    }
+    section.projects .projects-group .project video{
+        width: 100%;
+    }
+
+    
+    section.about{
+        padding: 2rem 2rem 2rem 0rem;
+        text-align: start;
+    }
+    section.about ul li{
+        padding: .1rem 1rem .1rem 1rem;
+        margin-bottom:1.5rem;
+    }
+
+    section.cv{
+        margin-bottom: 8rem; 
+    }
+    
+    #cv{
+        display: none;
+    }
+
+    a.cv{
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        border: 1.5px solid #522cd1;
+        background-color: #fff;
+        color: #522cd1;
+        border-radius: 1rem;
+        width: 50%;
+        margin: auto;
+        padding: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: .3s;
+    }
+    a.cv:hover{
+        transform: scaleX(0.9);
+    }
+}

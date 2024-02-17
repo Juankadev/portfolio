@@ -3,7 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-color: #eeeeee;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 h1,h2{
     color: #522cd1;
@@ -119,8 +119,18 @@ section.about{
 section.about h2{
     color:#fff;
 }
+section.about ul{
+    list-style: none;
+}
+section.about ul li{
+    text-align: start;
+    padding: 0 1rem 0 1rem;
+    background-color: white;
+    border-radius: 1rem;
+}
 section.about p{
     line-height: 2rem;
+    color: black;
 }
 
 #cv{
@@ -164,63 +174,4 @@ footer .buttons a.github:hover{
 footer p.copyright{
     text-align: center;
     color: #eeeeee;
-}
-
-
-
-@media only screen and (max-width: 600px) {  
-    header{
-        margin-left: 1rem;
-    }
-    header img.perfil{
-        width: 50%;
-    }
-
-
-    section.projects{
-        margin-top: 4rem;
-        margin-bottom: 4rem; 
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    section.projects .projects-group .project{
-        padding: .7rem;
-        display:block;
-    }
-    section.projects .projects-group .project video{
-        width: 100%;
-    }
-
-    
-    section.about{
-        padding: 2rem 1rem 2rem 0rem;
-        text-align: start;
-    }
-
-    section.cv{
-        margin-bottom: 8rem; 
-    }
-    
-    #cv{
-        display: none;
-    }
-
-    a.cv{
-        text-decoration: none;
-        text-align: center;
-        display: block;
-        border: 1.5px solid #522cd1;
-        background-color: #fff;
-        color: #522cd1;
-        border-radius: 1rem;
-        width: 50%;
-        margin: auto;
-        padding: 1rem;
-        font-weight: bold;
-        text-transform: uppercase;
-        transition: .3s;
-    }
-    a.cv:hover{
-        transform: scaleX(0.9);
-    }
 }
