@@ -113,7 +113,7 @@ section.projects .projects-group .project{
     gap: 1rem;
 }
 section.projects .projects-group .project video{
-    width: 60%;
+    width: 55%;
     border-radius: 1rem;
 }
 section.projects .projects-group .project img{
