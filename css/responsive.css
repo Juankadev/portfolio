@@ -1,5 +1,12 @@
 
 @media only screen and (max-width: 600px) {  
+    h1,h2{
+        font-size: 1.8rem;
+    }
+    h1{
+        padding-top:1rem;
+        padding-bottom:1rem;
+    }
     header{
         margin-left: 1rem;
         margin-right: 1rem;
@@ -10,7 +17,9 @@
 
 
     section.skills{
-        padding: 1rem 6rem 1rem 6rem;
+        display:none;
+    }
+        /* padding: 1rem 6rem 1rem 6rem;
         min-height: auto;
         margin-bottom: 0;
         background-color: #522cd1;
@@ -21,12 +30,12 @@
     }
     section.skills .skills-container > div{
         width: 100%;
-    }
+    } */
 
 
 
     section.projects{
-        margin-top: 4rem;
+        margin-top: 0rem;
         margin-bottom: 4rem; 
         margin-left: 1rem;
         margin-right: 1rem;
@@ -74,5 +83,8 @@
     }
     a.cv:hover{
         transform: scaleX(0.9);
+    }
+    footer .buttons a {
+        padding: 0;
     }
 }
