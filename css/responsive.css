@@ -1,19 +1,36 @@
 
 @media only screen and (max-width: 600px) {  
     h1,h2{
-        font-size: 1.8rem;
+        font-size: 3rem;
     }
     h1{
         padding-top:1rem;
         padding-bottom:1rem;
     }
+
+    
     header{
-        margin-left: 1rem;
-        margin-right: 1rem;
+        padding: 0 2rem 0 2rem;
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: column-reverse;
+        margin-bottom: 8rem;
+        background: linear-gradient(to top, #522cd1 30%, #6f42c1 100%);  
+    }
+    header > div{
+        width: 100%;
+    }
+    header h1{
+        font-size: 3.9rem;
+        text-align: center;
+    }
+    header img{
+        margin: 0;
     }
     header img.perfil{
-        width: 50%;
+        width: 100%;
     }
+
 
 
     section.skills{
