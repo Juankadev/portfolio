@@ -46,6 +46,11 @@ header > div{
 header img.perfil{
     width: 50%;
 }
+header div .icons-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
 header a img{
     width: 4rem;
     margin-right: 2rem;
