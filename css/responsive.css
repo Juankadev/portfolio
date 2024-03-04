@@ -10,7 +10,7 @@
 
     
     header{
-        padding: 0 2rem 0 2rem;
+        padding: 2rem 2rem 2rem 2rem;
         flex-wrap: wrap;
         text-align: center;
         flex-direction: column-reverse;
@@ -24,8 +24,11 @@
         font-size: 3.9rem;
         text-align: center;
     }
-    header img{
-        margin: 0;
+    header a img{
+        margin-right: 0rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 6rem;
     }
     header img.perfil{
         width: 100%;

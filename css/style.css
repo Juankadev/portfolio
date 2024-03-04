@@ -231,31 +231,26 @@ footer .buttons{
     margin-bottom: 2rem;
     
 }
-footer .buttons a{
-    width: 20%;
-    padding: 1.5rem;
-    color: #000000;
-    text-align: center;
-    text-decoration: none;
-    border: 1px solid #000000;
-    border-radius: 1rem;
+footer .buttons a img{
+    width: 5.5rem;
+    margin-right: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     transition: .5s;
-    background-color: #ffffff;
+    filter: drop-shadow(0px 1px 1.5px #fff);
 }
-/* footer .buttons a.linkedin:hover{
-    background-color: #2866b3;
-    border: 1px solid #eee;
+footer .buttons a img:hover{
+    /* transform: rotateZ(-10deg);
+    opacity: .6; */
+    filter: drop-shadow(0px 1px 1.5px #d600aa);
+    transform: scale(1.07);
 }
-footer .buttons a.github:hover{
-    background-color: black;
-    border: 1px solid #eee;
-} */
-footer .buttons a:hover{
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-}
-footer p.copyright{
+footer p{
     text-align: center;
     color: #eeeeee;
+}
+footer p.copyright{
+    font-style:italic
 }
 
 
