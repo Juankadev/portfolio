@@ -187,7 +187,8 @@ section.projects .projects-group .project a img:hover{
 
 
 section.about{
-    background-color: #522cd1;
+    /* background-color: #522cd1; */
+    background: linear-gradient(to right, #522cd1 30%, #6f42c1 100%);  
     color: #eeeeee;
     text-align: center;
     padding: 1rem 6rem 2rem 6rem;

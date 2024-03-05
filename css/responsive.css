@@ -82,6 +82,7 @@
     section.about{
         padding: 2rem 2rem 2rem 0rem;
         text-align: start;
+        background: linear-gradient(to bottom, #522cd1 30%, #6f42c1 100%);  
     }
     section.about ul li{
         padding: .1rem 1rem .1rem 1rem;
@@ -113,6 +114,9 @@
     }
     a.cv:hover{
         transform: scaleX(0.9);
+    }
+    footer{
+        background: linear-gradient(to top, #522cd1 30%, #6f42c1 100%);  
     }
     footer .buttons a {
         padding: 0;
