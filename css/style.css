@@ -16,6 +16,12 @@ h1,h2{
     font-weight: 400;
     font-style: normal;
 }
+h2, h4{
+    background: webkit-linear-gradient(right, #522cd1 0%, #892CD1 100%);
+    background: linear-gradient(to right, #522cd1 0%, #892CD1 100%);
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent; 
+}
 p{
     font-size: 1.1rem;
 }
@@ -37,7 +43,7 @@ header{
     padding: 0 4rem 0 4rem;
     overflow: hidden;
     /* background-color: #522cd1; */
-    color: #cacaca;
+    color: rgb(222, 222, 222);
     background: linear-gradient(to right, #522cd1 30%, #6f42c1 100%);  
 }
 header > div{
@@ -156,7 +162,7 @@ section.projects .projects-group .project img{
 section.projects .projects-group .project h4{
     font-size: 1.6rem;
     /* background-color: #522cd1; */
-    color: #522cd1;
+    /* color: #522cd1; */
     /* border-radius: 1rem; */
     text-align: start;
     padding: .2rem;
@@ -168,6 +174,7 @@ section.projects .projects-group .project h4{
 }
 section.projects .projects-group .project p{
     padding-left: 1rem;
+    color: rgb(31, 31, 31);
 }
 section.projects .projects-group .project a{
     padding-left: 1rem;
@@ -198,6 +205,10 @@ section.about{
 section.about h2{
     color:#fff;
     margin-bottom: 2rem;
+    background: webkit-linear-gradient(right, #ffffff 0%, #ffffff 100%);
+    background: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent; 
 }
 section.about ul{
     list-style: none;
@@ -210,7 +221,7 @@ section.about ul li{
 }
 section.about p{
     line-height: 2rem;
-    color: black;
+    color: rgb(31, 31, 31);
 }
 
 #cv{
